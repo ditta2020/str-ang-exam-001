@@ -1,4 +1,6 @@
+import { SourceMapGenerator } from '@angular/compiler/src/output/source_map';
 import { Component } from '@angular/core';
+import { Hero } from './model/hero';
 
 @Component({
   selector: 'app-root',
